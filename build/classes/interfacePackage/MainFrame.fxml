@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="709.000199999995" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="interfacePackage.MainFrameController">
+  <children>
+    <SplitPane dividerPositions="0.4986737400530504" focusTraversable="true" orientation="VERTICAL" prefHeight="379.0" prefWidth="597.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="98.0" AnchorPane.topAnchor="14.0">
+      <items>
+        <AnchorPane maxHeight="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="185.0" prefWidth="574.0">
+          <children>
+            <TextArea fx:id="taTab" prefHeight="186.0" prefWidth="596.0" style="-fx-background-color:#F7F2E0&#10;" wrapText="true" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <TextArea id="taTrascribe" fx:id="taTranscribe" prefHeight="186.0" prefWidth="597.0001831054688" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+    <Button id="buttonTrascribe" fx:id="buttonTranscribe" mnemonicParsing="false" onAction="#handleButtonTranscribe" text="Transcribe" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="15.0" />
+  </children>
+</AnchorPane>
